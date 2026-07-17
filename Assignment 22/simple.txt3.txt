@@ -1,0 +1,34 @@
+1. In-memory vs Persistent Storage
+Answer
+
+FAISS
+
+Stores embeddings mainly in memory (RAM).
+Very fast for similarity search.
+To keep the data after closing the program, we need to save it manually using save_local().
+
+ChromaDB
+
+Stores embeddings on disk (persistent storage).
+Data is automatically saved and can be reused later.
+Suitable for applications where data needs to be stored permanently.
+2. Use Cases for FAISS
+Answer
+
+FAISS is mainly used for:
+
+Fast similarity search.
+AI and Machine Learning projects.
+Research and testing.
+Small to medium-sized vector databases.
+Applications where high search speed is important.
+3. Use Cases for ChromaDB
+Answer
+
+ChromaDB is mainly used for:
+
+RAG (Retrieval-Augmented Generation) applications.
+AI chatbots.
+Long-term document storage.
+Knowledge management systems.
+Large document collections with persistent storage.

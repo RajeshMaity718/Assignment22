@@ -1,0 +1,21 @@
+1. Importance of Embeddings in Generative AI
+Answer
+
+Embeddings are numerical representations of text. They help AI understand the meaning of words, sentences, and documents. Embeddings are used for semantic search, document retrieval, recommendations, and question answering. They improve the accuracy of AI systems by finding information based on meaning instead of exact words.
+
+2. Why are Vector Databases Required?
+Answer
+
+Vector databases store embeddings efficiently and perform fast similarity searches. They help find the most relevant documents based on a user's query. Without vector databases, searching through a large number of documents would be slow and inefficient.
+
+3. How Does This Pipeline Enable RAG (Retrieval-Augmented Generation) Systems?
+Answer
+
+The pipeline works in the following steps:
+
+Load documents.
+Split documents into smaller chunks.
+Convert chunks into embeddings.
+Store embeddings in a vector database.
+When a user asks a question, retrieve the most relevant chunks.
+Provide the retrieved information to the Large Language Model (LLM), which generates an accurate and context-aware answer.
